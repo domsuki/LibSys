@@ -61,5 +61,10 @@ namespace LoginRegister
         {
 
         }
+
+        private void Registration_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
