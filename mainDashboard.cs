@@ -15,6 +15,8 @@ namespace LoginRegister
         public mainDashboard()
         {
             InitializeComponent();
+            // Set the label text to the currently logged in user
+            label3.Text = "Logged in as: " + Form1.loggedInUser;
         }
 
         private void Form3_Load(object sender, EventArgs e)
@@ -23,6 +25,36 @@ namespace LoginRegister
         }
 
         private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

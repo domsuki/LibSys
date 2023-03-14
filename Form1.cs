@@ -8,6 +8,7 @@ namespace LoginRegister
     {
         private SqlCommand cmd;
         private SqlConnection cn;
+        public static string loggedInUser;
 
         public Form1()
         {
@@ -27,14 +28,11 @@ namespace LoginRegister
                 SqlDataReader reader = cmd.ExecuteReader();
                 if (reader.Read())
                 {
+                    loggedInUser = txtUser.Text;
                     MessageBox.Show("Welcome!");
                     mainDashboard dashboard = new mainDashboard();
                     dashboard.Show();
                     this.Hide();
-                }
-                else
-                {
-                    MessageBox.Show("Invalid username or password!");
                 }
             }
             catch (Exception ex)
@@ -50,6 +48,7 @@ namespace LoginRegister
             Console.WriteLine("Username: " + txtUser.Text);
             Console.WriteLine("Password: " + txtPass.Text);
         }
+
         private void btnRegister_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -59,6 +58,11 @@ namespace LoginRegister
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
