@@ -354,6 +354,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "mainDashboard";
             this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.Form3_Load);

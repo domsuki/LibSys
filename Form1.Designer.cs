@@ -88,7 +88,7 @@
             this.btnLogin.BackColor = System.Drawing.Color.Moccasin;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.btnLogin.Location = new System.Drawing.Point(255, 414);
+            this.btnLogin.Location = new System.Drawing.Point(255, 404);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(88, 44);
             this.btnLogin.TabIndex = 4;
@@ -101,9 +101,9 @@
             this.btnRegister.BackColor = System.Drawing.Color.Moccasin;
             this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegister.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.btnRegister.Location = new System.Drawing.Point(473, 460);
+            this.btnRegister.Location = new System.Drawing.Point(452, 468);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(88, 44);
+            this.btnRegister.Size = new System.Drawing.Size(128, 36);
             this.btnRegister.TabIndex = 5;
             this.btnRegister.Text = "Register";
             this.btnRegister.UseVisualStyleBackColor = false;
@@ -164,6 +164,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUser);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
             this.Text = "Log In";
             this.Load += new System.EventHandler(this.btnLogin_Click);

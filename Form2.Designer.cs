@@ -76,9 +76,9 @@
             // 
             this.btnConfirm.BackColor = System.Drawing.Color.Moccasin;
             this.btnConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfirm.Location = new System.Drawing.Point(260, 418);
+            this.btnConfirm.Location = new System.Drawing.Point(232, 418);
             this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.Size = new System.Drawing.Size(88, 44);
+            this.btnConfirm.Size = new System.Drawing.Size(133, 49);
             this.btnConfirm.TabIndex = 3;
             this.btnConfirm.Text = "Register";
             this.btnConfirm.UseVisualStyleBackColor = false;
@@ -88,9 +88,9 @@
             // 
             this.btnLogin.BackColor = System.Drawing.Color.Moccasin;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(473, 460);
+            this.btnLogin.Location = new System.Drawing.Point(463, 468);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(88, 44);
+            this.btnLogin.Size = new System.Drawing.Size(128, 36);
             this.btnLogin.TabIndex = 4;
             this.btnLogin.Text = "Log In";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -191,6 +191,7 @@
             this.Controls.Add(this.txtCfmPass);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Registration";
             this.Text = "Registration";
             this.Load += new System.EventHandler(this.Registration_Load);
